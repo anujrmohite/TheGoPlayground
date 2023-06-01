@@ -2,8 +2,12 @@ package main
 
 import "fmt"
 
+//declaring constants
+//This is public
+const LoginToken string = "token-02"
+
 func main() {
-	
+
 	var username string = "string"
 	fmt.Println("username")
 	fmt.Printf("Variable is of type: %T \n", username)
@@ -27,4 +31,8 @@ func main() {
 	numberOfUsers := 300000
 	fmt.Println("\nThis is no-var style type declaration")
 	fmt.Println(numberOfUsers)
+
+	//Example of Accessign Global Variable
+	fmt.Println("\nLogic Token can be accessed as like this also")
+	fmt.Println(LoginToken)
 }
