@@ -19,4 +19,6 @@ func main() {
 
 	input, _ := reader.ReadString('\n')
 	fmt.Println("Thanks for rating, ", input)
+	fmt.Printf("The type of this rating is %T \n", input)
+
 }
