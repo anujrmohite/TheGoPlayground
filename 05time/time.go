@@ -1,5 +1,15 @@
 package main
 
-func main()  {
-	fmt.Println
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+	fmt.Println("Welcome to time study of golang")
+	presentTime := time.Now()
+	fmt.Println(presentTime)
+
+	//To set the format for date
+	//fmt.Println(presentTime.Format("01-02-2006 15:04:05 Monday"))
 }
