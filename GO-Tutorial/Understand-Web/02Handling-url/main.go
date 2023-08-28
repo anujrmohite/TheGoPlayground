@@ -27,4 +27,9 @@ func main() {
 	q_params := result.Query()
 	fmt.Println("Types of Params is :")
 	fmt.Println(q_params)
+
+	partsOfURL := &url.URL{
+		Scheme: "https",
+		
+	}
 }
